@@ -46,6 +46,11 @@ body {
     margin-top: 0;
     margin-bottom: $heading-spacing;
 
+    a {
+      color: $gray-5;
+      &:hover { color: $sidebar-title-color; }
+    }
+
     .back-arrow { margin-right: 0.5rem; }
   }
 }
