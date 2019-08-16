@@ -21,8 +21,7 @@ $body-color: $gray-5 !default;
 $body-muted: $gray-4 !default;
 $body-bg: #fff !default;
 $link-color: $blue !default;
-// background color
-$heading-color: $red !default;
+$heading-color: $gray-6 !default;
 
 $border-color: $gray-2 !default;
 $border-radius: 300px !default;
@@ -45,8 +44,8 @@ $default-box-shadow: $box-shadow-size
 $code-font-family: Menlo, Monaco, "Courier New", monospace !default;
 $code-color: #bf616a !default;
 
-// Hyde theming
-$sidebar-bg-color: #202020 !default;
+// Hyde theming  background colors
+$sidebar-bg-color :#c1b1f2 !default;
 $sidebar-fg-color: white !default;
 $sidebar-sticky: true !default;
 $layout-reverse: false !default;
