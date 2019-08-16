@@ -13,7 +13,7 @@
   <!-- {% endif %} -->
 
   <a id="subscribe-link"
-     class="icon" title="LinkedIn" aria-label="LinkedIn"
+     class="icon" style="white-space: nowrap"title="LinkedIn" aria-label="LinkedIn"
      href="linkedin.com/in/amymzhou">
     {% include svg/linkedin-logo.svg %}
   </a>
@@ -34,20 +34,20 @@
   <!-- {% if tags_page %} -->
     <a id="tags-link"
        class="icon{% if page.url == '/tags' %} active{% endif %}"
-       title="Email" aria-label="Email"
+       style="white-space: nowrap" title="Email" aria-label="Email"
        href="{{ tags_page.url | relative_url }}">
       {% include svg/email-logo.svg%}
     </a>
   <!-- {% endif %} -->
 
-  {% if search_page %}
+  <!-- {% if search_page %} -->
     <a id="search-link"
        class="icon{% if page.url == '/search' %} active{% endif %}"
-       title="Search" aria-label="Search"
-       href="{{ search_page.url | relative_url }}">
-      {% include svg/search.svg %}
+       title="Facebook" aria-label="Facebook"
+       href="{{ facebook.com/amymzhou }}">
+      {% include svg/facebook-logo.svg %}
     </a>
-  {% endif %}
+  <!-- {% endif %} -->
 
   {% include custom-icon-links.html %}
 </nav>
