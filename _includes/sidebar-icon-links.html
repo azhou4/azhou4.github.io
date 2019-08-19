@@ -1,15 +1,15 @@
 <nav id="sidebar-icon-links">
-  {% if site.hydeout.repo %}
+  {% if site.github.repo %}
     <a id="github-link"
        class="icon" title="Github" aria-label="Github"
-       href="github.com/azhou4">
+       href="{{ site.github.repo }}">
       {% include svg/github.svg %}
     </a>
   {% endif %}
 
   <a id="linkedin-link"
      class="icon" style="white-space: nowrap"title="LinkedIn" aria-label="LinkedIn"
-     href="linkedin.com/in/amymzhou">
+     href="https://www.linkedin.com/in/amymzhou">
     {% include svg/linkedin-logo.svg %}
   </a>
 
@@ -29,7 +29,8 @@
 
   <!-- {% if tags_page %} -->
     <a id="email-link"
-       class="icon{% if page.url == '/tags' %} active{% endif %}"
+       class="icon" title="Email" 
+       aria-label="Email"
        style="white-space: nowrap" title="Email" aria-label="Email"
        href="mailto: amy_zhou@college.harvard.edu">
       {% include svg/email-logo.svg%}
@@ -38,9 +39,9 @@
 
   <!-- {% if search_page %} -->
     <a id="facebook-link"
-       class="iconactive"
+       class="icon"
        title="Facebook" aria-label="Facebook"
-       href="www.facebook.com/amymzhou">
+       href="https://www.facebook.com/amymzhou">
       {% include svg/facebook-logo.svg %}
     </a>
   <!-- {% endif %} -->
