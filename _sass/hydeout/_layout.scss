@@ -73,17 +73,6 @@ body {
   padding: $section-spacing;
 }
 
-.iconcenter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.iconcenter a {
-  margin: 0 5px;
-}
-
 
 /* -----------------------------------------------------------
   Mobile view
@@ -231,6 +220,7 @@ body {
 
   svg {
     fill: $sidebar-icon-color;
+
   }
 
   &:hover, &:focus, &.active {
