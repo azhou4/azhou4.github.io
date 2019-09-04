@@ -29,3 +29,5 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 github:
   repo:             https://github.com/azhou4
+
+google_analytics: UA-147071768-1
